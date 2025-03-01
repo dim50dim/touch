@@ -101,7 +101,11 @@ let a8=['red', 'green', 'blue', 'orange', 'pink', 'yellow'];
 function t9() {
 
 }
-
+document.querySelector('.div-9').addEventListener('touchstart',function(e) {
+    document.querySelector('.out-9').innerHTML = e.touches.length;
+       console.log(e);
+           
+});
 // ваше событие здесь!!!
 
 
