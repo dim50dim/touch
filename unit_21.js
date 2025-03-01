@@ -54,11 +54,7 @@ function t4() {
 
 // Task 5 ============================================
 /*  Дана кнопка b-5. При ее нажатии очищайте событие ontouchstart на блоке div-4. */
-document.querySelector('.b-4').addEventListener('click', () => {
-    document.querySelector('.div-4').addEventListener('touchstart', () => {
-        document.querySelector('.out-4').innerHTML = 'touch by button'
-    })
-})
+
 
 // ваше событие здесь!!!
 
@@ -68,7 +64,7 @@ document.querySelector('.b-4').addEventListener('click', () => {
 function t6() {
 
 }
-
+document.querySelector('.div-4')
 // ваше событие здесь!!!
 
 
