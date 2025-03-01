@@ -51,16 +51,14 @@ function t4() {
 //     })
 //   });
 // ваше событие здесь!!!
-document.getElementById('b-4').addEventListener('click', function() {
-    document.getElementById('div-4').addEventListener('touchstart', function() {
-        document.getElementById('out-4').textContent = 'touch';
-    })
+
 // Task 5 ============================================
 /*  Дана кнопка b-5. При ее нажатии очищайте событие ontouchstart на блоке div-4. */
-
-function t5() {
-
-}
+document.querySelector('.b-4').addEventListener('click', () => {
+    document.querySelector('.div-4').addEventListener('touchstart', () => {
+        document.querySelector('.out-4').innerHTML = 'touch by button'
+    })
+})
 
 // ваше событие здесь!!!
 
