@@ -124,7 +124,7 @@ function t11() {
 }
 document.querySelector('.div-11').addEventListener('touchstart',function (e) {
     console.log(e.touches[0].radiusY + ' ' +  e.touches[0].radiusX);
-    
+    document.querySelector('.out-11').innerHTML = e.touches[0].radiusY + ' ' +  e.touches[0].radiusX
 })
 // ваше событие здесь!!!
 
@@ -148,7 +148,7 @@ const prev = document.querySelector('.prev');
 prev.onclick = prevFunction;
 
 function nextFunction() {
-
+  images.map(item => item.classList.add('active-img'))
 }
 
 function prevFunction() {
