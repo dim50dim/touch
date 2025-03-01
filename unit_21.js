@@ -87,7 +87,11 @@ document.querySelector('.div-7').addEventListener('touchstart',t7);
 function t8() {
 
 }
-
+let a8=['red', 'green', 'blue', 'orange', 'pink', 'yellow'];
+ document.querySelector('.div-8').addEventListener('touchstart',function () {
+       let randomColor = a8[Math.floor(Math.random() * a8.length)];
+       this.style.backgroundColor = randomColor;
+ })
 // ваше событие здесь!!!
 
 
