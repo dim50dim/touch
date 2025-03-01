@@ -66,9 +66,7 @@ document.querySelector('.b-5').addEventListener('touchend',() => {
 function t6() {
    document.querySelector('.out-6').innerHTML = 'touchenddddddddd'
 }
-document.querySelector('.div-6').addEventListener('touchend',() => {
-    document.querySelector('.out-6').innerHTML = 'touchendddddd'
-})
+document.querySelector('.div-6').addEventListener('touchend',t6)
 // ваше событие здесь!!!
 
 
