@@ -123,7 +123,7 @@ function t11() {
 
 }
 document.querySelector('.div-11').addEventListener('touchstart',function (e) {
-    console.log(e);
+    console.log(e.touches[0].radiusY + ' ' +  e.touches[0].radiusX);
     
 })
 // ваше событие здесь!!!
