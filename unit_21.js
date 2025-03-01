@@ -73,10 +73,12 @@ document.querySelector('.div-6').addEventListener('touchend',t6)
 // Task 7 ============================================
 /*  Дан блок div-7. Добавьте событие touch, при срабатывании которого окрашивайте блок в красный цвет. */
 
-function t7() {
-
-}
-
+// function t7() {
+//    document.querySelector('.div-7').style.backgroundColor = 'red'
+// }
+document.querySelector('.div-7').addEventListener('touchstart', function()  { 
+    this.style.backgroundColor = 'red'
+})
 // ваше событие здесь!!!
 
 // Task 8 ============================================
