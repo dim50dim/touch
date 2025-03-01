@@ -45,7 +45,9 @@ document.querySelector(".div-3_2").addEventListener('touchstart',() => {
 function t4() {
 
 }
-
+document.querySelector('.div-4').addEventListener('ontouchstart', () => {
+    document.querySelector('.out-4').innerHTML = 'touch'
+})
 // ваше событие здесь!!!
 
 // Task 5 ============================================
