@@ -98,14 +98,12 @@ let a8=['red', 'green', 'blue', 'orange', 'pink', 'yellow'];
 // Task 9 ============================================
 /* Дан блок div-9. Добавьте событие ontouch. Выводите количество одновременных касаний в out-9. */
 
-function t9() {
-
+function t9(e) {
+  document.querySelector('.out-9').innerHTML = e.touches.length;
+  console.log(e);
+  
 }
-document.querySelector('.div-9').addEventListener('touchstart',function(e) {
-    document.querySelector('.out-9').innerHTML = e.touches.length;
-       console.log(e);
-           
-});
+document.querySelector('.div-9').addEventListener('touchstart',t9);
 // ваше событие здесь!!!
 
 
