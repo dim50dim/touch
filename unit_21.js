@@ -122,7 +122,10 @@ document.querySelector('.div-10').addEventListener('touchmove',function () {
 function t11() {
 
 }
-
+document.querySelector('.div-11').addEventListener('touchstart',function (e) {
+    console.log(e);
+    
+})
 // ваше событие здесь!!!
 
 // Task 12 ============================================
