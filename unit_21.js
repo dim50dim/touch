@@ -45,11 +45,16 @@ document.querySelector(".div-3_2").addEventListener('touchstart',() => {
 function t4() {
 
 }
-document.querySelector('.div-4').addEventListener('ontouchstart', () => {
-    document.querySelector('.out-4').innerHTML = 'touch'
-})
+// document.querySelector('.b-4').addEventListener('click', () => {
+//     document.querySelector('.div-4').addEventListener('ontouchstart', () => {
+//         document.querySelector('.out-4').innerHTML = 'touch by button'
+//     })
+//   });
 // ваше событие здесь!!!
-
+document.getElementById('b-4').addEventListener('click', function() {
+    document.getElementById('div-4').addEventListener('touchstart', function() {
+        document.getElementById('out-4').textContent = 'touch';
+    })
 // Task 5 ============================================
 /*  Дана кнопка b-5. При ее нажатии очищайте событие ontouchstart на блоке div-4. */
 
