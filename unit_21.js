@@ -64,9 +64,11 @@ document.querySelector('.b-5').addEventListener('touchend',() => {
 /*  Добавьте событие ontouchend на div-4. При его срабатывании выведите в out-6 слово touchend. */
 
 function t6() {
-
+   document.querySelector('.out-6').innerHTML = 'touchenddddddddd'
 }
-document.querySelector('.div-4')
+document.querySelector('.div-6').addEventListener('touchend',() => {
+    document.querySelector('.out-6').innerHTML = 'touchendddddd'
+})
 // ваше событие здесь!!!
 
 
