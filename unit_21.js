@@ -29,7 +29,9 @@ document.querySelector('.div-2').addEventListener('touchstart', () => {
 function t3() {
 
 }
-
+document.querySelector('.div-3_1').addEventListener('touchstart',() => {
+    document.querySelector('.out-3').innerHTML = 
+})
 // ваше событие здесь!!!
 
 
