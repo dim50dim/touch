@@ -30,7 +30,11 @@ function t3() {
 
 }
 document.querySelector('.div-3_1').addEventListener('touchstart',() => {
-    document.querySelector('.out-3').innerHTML = 
+    document.querySelector('.out-3').innerHTML = 33333333333111111111
+})
+
+document.querySelector(".div-3_2").addEventListener('touchstart',() => {
+    document.querySelector('.out-3').innerHTML = 333333222222222;
 })
 // ваше событие здесь!!!
 
